@@ -21,16 +21,18 @@
 title: Monke-Blog 🦍
 email: mono.loco@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Toda la información expuesta en el blog ha sido obtenida de manera progresiva junto al blog.
+  Toda la información expuesta en el blog explica cómo se he creado
+  el Blog desde 0.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: micodelaluna
 github_username:  MonkeHacker1234
 
 # Build settings
-theme: minima
+theme: null
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
