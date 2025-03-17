@@ -28,6 +28,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: micodelaluna
 github_username:  MonkeHacker1234
 
+# Links header
+header_pages:
+  - 📩 Contacto.markdown
+
 # Build settings
 theme: null
 plugins:
