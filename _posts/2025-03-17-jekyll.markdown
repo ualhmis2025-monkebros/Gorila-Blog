@@ -1,0 +1,113 @@
+---
+layout: post
+title: "Introducción a Jekyll: Generador de sitios estáticos"
+date: 2025-03-16 00:52:08 +0100
+categories: jekyll desarrollo web
+---
+
+Jekyll es un generador de sitios estáticos que permite crear blogs y páginas web sin necesidad de una base de datos. Es una herramienta popular entre desarrolladores y escritores técnicos por su simplicidad y eficiencia.
+
+## ¿Qué es Jekyll?
+
+Jekyll es un generador de sitios estáticos escrito en Ruby. Convierte archivos en formato Markdown o HTML en un sitio web completo y optimizado. Es ideal para blogs, documentación y sitios personales.
+
+Características principales:
+- **Generación estática**: No requiere una base de datos.
+- **Uso de Markdown**: Escribe contenido de forma sencilla.
+- **Soporte para plantillas**: Usa Liquid para estructurar el diseño.
+- **Despliegue fácil**: Compatible con GitHub Pages.
+
+## Instalación de Jekyll
+
+Para comenzar con Jekyll, necesitas tener Ruby instalado. Luego, instala Jekyll y Bundler ejecutando:
+
+```sh
+gem install jekyll bundler
+```
+
+Para crear un nuevo sitio con Jekyll:
+
+```sh
+jekyll new mi-sitio
+cd mi-sitio
+bundle exec jekyll serve
+```
+
+Esto iniciará un servidor local en `http://localhost:4000/` donde podrás ver tu sitio en tiempo real.
+
+## Estructura de un Proyecto Jekyll
+
+Un sitio Jekyll tiene la siguiente estructura de archivos:
+
+```
+mi-sitio/
+│-- _posts/        # Entradas de blog en Markdown
+|-- _site/         # Contenido del servidor jekyll
+|-- .jekyll-cache  # Caché del servidor jekyll
+│-- _config.yml    # Configuración del sitio
+│-- .gitignore     # Indica archivos que ignora jekyll en el control de versiones
+│-- 404.html       # Página de error de url
+|-- about.md       # Página con información de jekyll
+|-- Gemfile        # Indica que gems necesita el proyecto
+|-- Gemfile.lock   # Bloquea las versiones de cada gema
+│-- index.md       # Página de inicio
+```
+
+Las entradas del blog deben seguir el formato `YYYY-MM-DD-nombre-del-post.md` (Si no, no lo reconoce jekyll) y deben incluir un **Front Matter** en YAML con información como título, fecha y categoría:
+
+```yaml
+---
+layout: post
+title: "Mi primer post en Jekyll"
+date: 2025-03-15
+categories: blog
+---
+
+Este es un post de ejemplo en Jekyll escrito en Markdown.
+```
+
+## Personalización con Temas y Plugins
+
+Puedes cambiar la apariencia de tu sitio con temas de Jekyll. Para usar un tema oficial, agrega lo siguiente a tu `Gemfile`:
+
+```ruby
+gem "minima"
+```
+
+Luego, en `_config.yml`, configura el tema:
+
+```yaml
+theme: minima
+```
+Si quieres personalizar el tema minima, debes de copiar las carpetas del archivo minima de ruby en el repositorio del proyecto e indicar en theme el nombre "null" (hace que no utilice ningún estilo predeterminado). Si deseas utilizar otro tema, solo tienes que indicar el nombre en theme.
+
+Para ampliar la funcionalidad de Jekyll, puedes usar plugins como:
+- **jekyll-feed**: Genera un feed RSS automáticamente.
+- **jekyll-sitemap**: Crea un mapa del sitio para SEO.
+- **jekyll-seo-tag**: Mejora la optimización para buscadores.
+
+## Despliegue con GitHub Pages
+
+Puedes alojar un sitio Jekyll en GitHub Pages fácilmente:
+
+1. Crea un repositorio en GitHub.
+2. Sube los archivos de tu sitio.
+3. Habilita GitHub Pages en la configuración del repositorio.
+
+Si usas la rama `gh-pages`, ejecuta:
+
+```sh
+git push origin gh-pages
+```
+
+Tu sitio estará disponible en `https://tuusuario.github.io/`.
+
+## Conclusión
+
+Jekyll es una herramienta poderosa y fácil de usar para crear sitios web estáticos. Con su integración con Markdown, temas y plugins, puedes construir un sitio personalizado sin complicaciones.
+
+Para más información, consulta la documentación oficial:
+
+[Jekyll Docs](https://jekyllrb.com/docs/)
+
+

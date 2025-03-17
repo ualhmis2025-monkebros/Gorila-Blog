@@ -1,0 +1,83 @@
+---
+layout: post
+title: "Cómo configurar un entorno de desarrollo local con Visual Studio Code"
+date: 2025-03-16 23:46:23 +0100
+categories: desarrollo web vscode
+---
+
+Visual Studio Code (VS Code) es uno de los editores de código más populares para el desarrollo web. En esta guía paso a paso, configuraremos un entorno de desarrollo local con VS Code.
+
+## 1. Instalación de Visual Studio Code
+
+Descarga e instala VS Code desde el sitio oficial:
+
+[Descargar Visual Studio Code](https://code.visualstudio.com/)
+
+Una vez instalado, ábrelo y personaliza la interfaz según tus preferencias.
+
+## 2. Instalación de Extensiones Esenciales
+
+VS Code permite mejorar su funcionalidad con extensiones. Algunas recomendadas para el desarrollo web son:
+
+- **Live Server**: Recarga en vivo para HTML/CSS/JS.
+- **ESLint**: Ayuda con la detección de errores en JavaScript.
+- **Prettier**: Formateador de código para mantener una estructura ordenada.
+- **GitLens**: Mejora la integración con Git.
+
+Para instalarlas, abre VS Code y ve a `Extensiones` (`Ctrl+Shift+X`), busca las extensiones mencionadas y haz clic en instalar.
+
+## 3. Configuración del Espacio de Trabajo
+
+Para organizar tu proyecto, crea una carpeta y ábrela en VS Code (`Archivo > Abrir carpeta`).
+
+Configura un archivo de configuración en `.vscode/settings.json` para personalizar el entorno:
+
+```json
+{
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2
+}
+```
+
+## 4. Configuración de un Servidor Local
+
+Si trabajas con HTML/CSS/JavaScript, puedes usar `Live Server` para ver los cambios en tiempo real:
+
+1. Instala la extensión **Live Server**.
+2. Abre un archivo HTML.
+3. Haz clic derecho y selecciona `Open with Live Server`.
+
+Esto abrirá tu archivo en el navegador y se actualizará automáticamente con cada cambio.
+
+## 5. Integración con Git y GitHub
+
+Si usas Git para el control de versiones:
+
+1. Asegúrate de tener Git instalado ([Descargar Git](https://git-scm.com/)).
+2. Abre la terminal de VS Code y ejecuta:
+
+```sh
+git init
+git add .
+git commit -m "Primer commit"
+```
+
+Para conectar con GitHub:
+
+1. Crea un repositorio en GitHub.
+2. Agrega el repositorio remoto y sube tu código:
+
+```sh
+git remote add origin https://github.com/tuusuario/turepositorio.git
+git push -u origin main
+```
+
+## Conclusión
+
+Con estos pasos, tienes un entorno de desarrollo web completamente funcional en Visual Studio Code. ¡Ahora estás listo para empezar a programar!
+
+Si tienes dudas, consulta la documentación oficial de VS Code:
+
+[Documentación de Visual Studio Code](https://code.visualstudio.com/docs)
+
