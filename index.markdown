@@ -4,7 +4,7 @@ title: "Cómo crear un blog utilizando Jekyll"
 ---
 
 # Cómo crear un blog utilizando Jekyll
-
+ <img src="https://github.com/ualhmis2025-monkebros/Monke-Blog/blob/paco/Img/1708339_18a55.gif" alt="gorila gracioso" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto;"> <br>
 Bienvenidos a nuestro blog, un espacio donde compartimos conocimientos sobre desarrollo web utilizando Jekyll para la asignatura de "Herramientas y Metodologías de Ingeniería de Software".
 
 ---
