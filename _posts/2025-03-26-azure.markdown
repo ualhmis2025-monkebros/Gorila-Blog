@@ -1,0 +1,86 @@
+---
+layout: post
+title: "Despliegue del Blog en Azure Static Web Apps"
+date: 2025-03-26 11:30:00 +0100
+categories: desarrollo web azure static web apps
+---
+
+Azure Static Web Apps es una excelente opción para alojar un blog estático con integración continua y despliegue automático desde GitHub. En esta guía, aprenderás a desplegar tu blog en Azure Static Web Apps paso a paso.
+
+## 1. Requisitos Previos
+
+Antes de comenzar, asegúrate de tener lo siguiente:
+
+- Una cuenta en [Azure](https://portal.azure.com/).
+- Una cuenta en [GitHub](https://github.com/).
+- Un blog estático generado con Jekyll, Hugo, Next.js u otro framework soportado.
+- Git instalado en tu sistema ([Descargar Git](https://git-scm.com/)).
+
+## 2. Crear un Repositorio en GitHub
+
+1. Accede a [GitHub](https://github.com/) y crea un nuevo repositorio.
+2. Asigna un nombre a tu repositorio (por ejemplo, `mi-blog`).
+3. Marca la opción `Public` y haz clic en `Create repository`.
+
+## 3. Configurar el Proyecto Localmente
+
+Si ya tienes un blog generado con Jekyll o HTML estático, sigue estos pasos para configurarlo localmente:
+
+```sh
+git clone https://github.com/tuusuario/mi-blog.git
+cd mi-blog
+```
+
+Copia los archivos de tu blog dentro del directorio del repositorio.
+
+## 4. Crear una Static Web App en Azure
+
+1. Accede al [Portal de Azure](https://portal.azure.com/).
+2. Busca `Static Web Apps` y haz clic en `Crear`.
+3. Completa los siguientes campos:
+   - **Suscripción**: Selecciona tu suscripción de Azure.
+   - **Grupo de recursos**: Crea uno nuevo o usa uno existente.
+   - **Nombre de la aplicación**: Ingresa un nombre único.
+   - **Región**: Selecciona la más cercana a tu audiencia.
+   - **Fuente de despliegue**: Selecciona `GitHub`.
+4. Autoriza a Azure para acceder a tu cuenta de GitHub y selecciona el repositorio y la rama `main`.
+5. Configura los detalles de compilación según el framework de tu blog.
+6. Haz clic en `Crear` y espera a que se implemente la aplicación.
+
+## 5. Configurar GitHub Actions para Despliegue Automático
+
+Azure Static Web Apps genera automáticamente un archivo de workflow en `.github/workflows/azure-static-web-apps.yml`. Este archivo gestiona la integración y el despliegue continuo.
+
+Si realizas cambios en tu blog, simplemente sube los archivos actualizados con:
+
+```sh
+git add .
+git commit -m "Actualización del blog"
+git push origin main
+```
+
+GitHub Actions ejecutará el flujo de trabajo automáticamente y actualizará tu blog en Azure Static Web Apps.
+
+## 6. Configurar un Dominio Personalizado (Opcional)
+
+Si deseas usar un dominio personalizado:
+
+1. Accede a tu Static Web App en el Portal de Azure.
+2. En la sección `Custom domains`, agrega tu dominio personalizado.
+3. Sigue las instrucciones para configurar los registros DNS en tu proveedor de dominio.
+4. Espera a que los cambios se propaguen.
+
+## 7. Verificación y Mantenimiento
+
+Después del despliegue, verifica que tu blog funcione correctamente accediendo a la URL proporcionada por Azure.
+
+Si realizas cambios en el contenido, solo necesitas subir los archivos actualizados a GitHub, y la integración con GitHub Actions desplegará automáticamente la nueva versión.
+
+## Conclusión
+
+Azure Static Web Apps ofrece una solución potente para alojar blogs estáticos con integración continua y despliegue automático. Siguiendo estos pasos, tu blog estará en línea y accesible para el público.
+
+Para más detalles, consulta la documentación oficial de Azure Static Web Apps:
+
+[Documentación de Azure Static Web Apps](https://learn.microsoft.com/en-us/azure/static-web-apps/)
+

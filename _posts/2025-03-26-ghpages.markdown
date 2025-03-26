@@ -1,0 +1,102 @@
+---
+layout: post
+title: "Despliegue del Blog en GitHub Pages"
+date: 2025-03-26 11:20:00 +0100
+categories: desarrollo web github pages
+---
+
+GitHub Pages es una excelente opción para alojar un blog estático de manera gratuita. En esta guía, aprenderás cómo desplegar tu blog en GitHub Pages paso a paso.
+
+## 1. Requisitos Previos
+
+Antes de comenzar, asegúrate de tener lo siguiente:
+
+- Una cuenta en [GitHub](https://github.com/).
+- Un blog estático generado con Jekyll, Hugo u otro generador de sitios estáticos.
+- Git instalado en tu sistema ([Descargar Git](https://git-scm.com/)).
+
+## 2. Crear un Repositorio en GitHub
+
+1. Accede a [GitHub](https://github.com/) y crea un nuevo repositorio.
+2. Asigna un nombre a tu repositorio (por ejemplo, `mi-blog`).
+3. Marca la opción `Public` y haz clic en `Create repository`.
+
+## 3. Configurar el Proyecto Localmente
+
+Si ya tienes un blog generado con Jekyll o HTML estático, sigue estos pasos para configurarlo localmente:
+
+1. Abre la terminal y clona el repositorio recién creado:
+
+```sh
+git clone https://github.com/tuusuario/mi-blog.git
+```
+
+2. Navega a la carpeta del proyecto:
+
+```sh
+cd mi-blog
+```
+
+3. Copia los archivos de tu blog dentro del directorio del repositorio.
+
+## 4. Configurar GitHub Pages
+
+1. Accede a tu repositorio en GitHub.
+2. Ve a la pestaña `Settings`.
+3. En la barra lateral, selecciona `Pages`.
+4. En la sección `Branch`, selecciona `main` (o `gh-pages` si lo usas como rama de despliegue).
+5. Guarda los cambios.
+
+Después de unos minutos, tu blog estará disponible en:
+
+```
+https://tuusuario.github.io/mi-blog/
+```
+
+## 5. Subir los Archivos al Repositorio
+
+Desde la terminal, ejecuta los siguientes comandos para subir los archivos de tu blog a GitHub:
+
+```sh
+git add .
+git commit -m "Despliegue inicial"
+git push origin main
+```
+
+## 6. Configurar un Dominio Personalizado (Opcional)
+
+Si deseas usar un dominio personalizado:
+
+1. Compra un dominio en un proveedor como Namecheap o GoDaddy.
+2. Crea un archivo `CNAME` en la raíz del repositorio con tu dominio personalizado:
+
+```
+midominio.com
+```
+
+3. En el panel de DNS de tu proveedor, configura un registro CNAME apuntando a:
+
+```
+tuusuario.github.io
+```
+
+4. Guarda los cambios y espera a que se propaguen.
+
+## 7. Verificación y Mantenimiento
+
+Después del despliegue, verifica que tu blog funcione correctamente. Si realizas cambios en el contenido, solo necesitas subir los archivos actualizados a GitHub ejecutando:
+
+```sh
+git add .
+git commit -m "Actualización del blog"
+git push origin main
+```
+
+## Conclusión
+
+Con GitHub Pages, puedes desplegar tu blog de manera rápida y gratuita. Siguiendo estos pasos, tu blog estará en línea y accesible para el público. ¡Felices publicaciones!
+
+Para más detalles, consulta la documentación oficial de GitHub Pages:
+
+[Documentación de GitHub Pages](https://docs.github.com/en/pages)
+
