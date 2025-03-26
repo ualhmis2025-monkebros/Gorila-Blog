@@ -3,6 +3,7 @@ layout: post
 title: "Despliegue del Blog en Azure Static Web Apps"
 date: 2025-03-26 11:30:00 +0100
 categories: desarrollo web azure static web apps
+permalink: https://ualhmis2025-monkebros.github.io/desarrollo/web/azure/static/apps/2025/03/26/azure.html
 ---
 
 Azure Static Web Apps es una excelente opción para alojar un blog estático con integración continua y despliegue automático desde GitHub. En esta guía, aprenderás a desplegar tu blog en Azure Static Web Apps paso a paso.
