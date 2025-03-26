@@ -3,7 +3,6 @@ layout: post
 title: "Introducción a Jekyll: Generador de sitios estáticos"
 date: 2025-03-16 00:52:08 +0100
 categories: jekyll desarrollo web
-permalink: https://ualhmis2025-monkebros.github.io/jekyll/desarrollo/web/2025/03/15/jekyll.html
 ---
 
 Jekyll es un generador de sitios estáticos que permite crear blogs y páginas web sin necesidad de una base de datos. Es una herramienta popular entre desarrolladores y escritores técnicos por su simplicidad y eficiencia.
