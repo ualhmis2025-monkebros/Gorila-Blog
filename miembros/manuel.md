@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Manuel Quinta Sánchez"
+permalink: miembros\manuel.md
 ---
 
 # 👤 Manuel Quinta Sánchez
