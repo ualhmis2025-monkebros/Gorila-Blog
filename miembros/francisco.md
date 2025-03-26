@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Francisco Siles Berenguel"
-permalink: /miembros/francisco/
+permalink: /francisco/
 ---
 
 # 👤 Francisco Siles Berenguel
