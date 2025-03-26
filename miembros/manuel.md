@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Manuel Quinta Sánchez"
-permalink: miembros\manuel.md
+permalink: https://ualhmis2025-monkebros.github.io/miembros/manuel/
 ---
 
 # 👤 Manuel Quinta Sánchez
