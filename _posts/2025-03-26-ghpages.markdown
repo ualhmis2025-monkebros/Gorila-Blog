@@ -3,7 +3,6 @@ layout: post
 title: "Despliegue del Blog en GitHub Pages"
 date: 2025-03-26 11:20:00 +0100
 categories: desarrollo web github pages
-permalink: https://ualhmis2025-monkebros.github.io/desarrollo/web/github/pages/2025/03/26/ghpages.html
 ---
 
 GitHub Pages es una excelente opción para alojar un blog estático de manera gratuita. En esta guía, aprenderás cómo desplegar tu blog en GitHub Pages paso a paso.

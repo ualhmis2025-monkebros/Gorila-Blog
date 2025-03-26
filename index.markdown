@@ -21,5 +21,5 @@ Bienvenidos a nuestro blog, un espacio donde compartimos conocimientos sobre des
 
 ## 👥 Miembros del Equipo
 
-- [Francisco Siles Berenguel](/miembros/francisco/)
+- [Francisco Siles Berenguel](Gorila-blog/miembros/francisco/)
 - [Manuel Quinta Sánchez](/miembros/manuel/)

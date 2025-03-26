@@ -3,7 +3,7 @@ layout: post
 title: "Cómo configurar un entorno de desarrollo local con Visual Studio Code"
 date: 2025-03-16 23:46:23 +0100
 categories: desarrollo web vscode
-permalink: https://ualhmis2025-monkebros.github.io/desarrollo/web/vscode/2025/03/16/vscode.html
+permalink: Gorila_blog/_posts/2025-03-16-vscode.markdown
 ---
 
 Visual Studio Code (VS Code) es uno de los editores de código más populares para el desarrollo web. En esta guía paso a paso, configuraremos un entorno de desarrollo local con VS Code.

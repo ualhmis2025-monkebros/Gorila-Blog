@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: default
 title: "Francisco Siles Berenguel"
-permalink: /Gorila-Blog/miembros/francisco/
+permalink: Gorila-blog/miembros/francisco/
 ---
 
 # 👤 Francisco Siles Berenguel
 
-<img src="/assets/francisco.png" alt="Icono de Francisco" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto;">
+<img src="Gorila-blog/assets/francisco.png" alt="Icono de Francisco" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto;">
 
 <p style="text-align: center;">🔗 Cuenta de GitHub: <a href="https://github.com/ualfsb392">ualfsb392</a></p>
 
