@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Manuel Quinta Sánchez"
-permalink: /manuel/
 ---
 
 # 👤 Manuel Quinta Sánchez
