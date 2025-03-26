@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Francisco Siles Berenguel"
-permalink: /francisco/
+permalink: /Gorila-Blog/miembros/francisco/
 ---
 
 # 👤 Francisco Siles Berenguel
