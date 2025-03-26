@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: "Francisco Siles Berenguel"
-permalink: https://ualhmis2025-monkebros.github.io/miembros/francisco/
+permalink: /miembros/francisco/
 ---
 
 # 👤 Francisco Siles Berenguel
