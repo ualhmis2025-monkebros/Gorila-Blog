@@ -1,12 +1,12 @@
 ---
 layout: default
 title: "Manuel Quinta Sánchez"
-permalink: /miembros/manuel/
+permalink: Gorila-Blog/miembros/manuel/
 ---
 
 # 👤 Manuel Quinta Sánchez
 
-<img src="/assets/manuel.png" alt="Avatar de Manuel" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto;">
+<img src="Gorila-Blog/assets/manuel.png" alt="Avatar de Manuel" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto;">
 
 <p style="text-align: center;">🔗 Cuenta de GitHub: <a href="https://github.com/ualmqs562">ualmqs562</a></p>
 
