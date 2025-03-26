@@ -23,9 +23,3 @@ Bienvenidos a nuestro blog, un espacio donde compartimos conocimientos sobre des
 
 - [Francisco Siles Berenguel](/miembros/francisco/)
 - [Manuel Quinta Sánchez](/miembros/manuel/)
-
----
-
-## 📩 Contacto
-
-[Ir a la página de contacto](/contacto/)

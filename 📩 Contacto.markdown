@@ -24,7 +24,7 @@ permalink: /about/
 
 ¡Buenas! Si tienes alguna pregunta o sugerencia, no dudes en enviarnos un mensaje. :)
 
-<form action="https://formspree.io/f/xzzevoyb" method="POST">
+<form action="https://formspree.io/f/mjkyoljl" method="POST">
   <label for="email">Tu correo electrónico:</label>
   <input type="email" id="email" name="email" required>
   
