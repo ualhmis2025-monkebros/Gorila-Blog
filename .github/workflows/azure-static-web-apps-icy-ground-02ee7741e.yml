@@ -26,7 +26,7 @@ jobs:
         with:
           ruby-version: 3.0
           bundler-cache: true
-  # Instalar Bundler 2.6.6
+      # Instalar Bundler 2.6.6
       - name: Install Bundler 2.6.6
         run: gem install bundler -v 2.6.6
       -
