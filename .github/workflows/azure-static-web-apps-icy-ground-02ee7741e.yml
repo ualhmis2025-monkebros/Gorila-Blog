@@ -24,8 +24,11 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0 # Asegúrate de usar la versión adecuada de Ruby.
+          ruby-version: 3.0
           bundler-cache: true
+
+      - name: Add Linux platform to Gemfile.lock
+        run: bundle lock --add-platform x86_64-linux
 
       - name: Install dependencies
         run: bundle install
