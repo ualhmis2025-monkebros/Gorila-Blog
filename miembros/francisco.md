@@ -13,9 +13,9 @@ permalink: /miembros/francisco/
 ¡Hola! Me llamo Francisco, y soy estudiante de Ingeniería Informática en la Universidad de Almería. Además, soy cofundador del equipo Monkebros, una iniciativa que hemos montado mi compañero y yo para el enfoque del desarrollo de software. Espero que lleguemos muy lejos. 
 
 🎬 **Aficiones:**
-- Entusiasta de los videojuegos.
-- Me paso todo el día escuchando música
-- Me gusta viajar y conocer mundo.
+- ¡Entusiasta de los videojuegos!
+- ¡Me paso todo el día escuchando música!
+- ¡Me gusta viajar y conocer mundo!
 
 ✉️ **Contacto:**
 Puedes contactarme en [fsb392@inlumine.ual.es](mailto:fsb392@inlumine.ual.es).
